@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1794162_fuhrpark_vehicle_model</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1794162_fuhrpark_vehicle_model">production_year_fromVALCHANGES^ORtype_code_numberVALCHANGES^EQ<item endquery="false" field="production_year_from" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="type_code_number" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Validate TSN Format</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    if (!current.production_year_from || !current.type_code_number) {
+        return;
+    }
+    
+    var tsn = current.type_code_number.trim();
+    var year = new GlideDate();
+    year.setValue(current.production_year_from);
+    var cutoff = new GlideDate();
+    cutoff.setValue('2000-12-31');
+    //var isValid = true;
+	/* gs.addErrorMessage(tsn);
+    gs.addErrorMessage(year);
+    gs.addErrorMessage('hi'); */
+    if (year <= cutoff) {
+        // Fahrzeuge mit Baujahr bis 2000: TSN = 3 Ziffern
+        if (!/^\d{3}$/.test(tsn)) {
+            gs.addErrorMessage(gs.getMessage("invalid_tsn_format"));
+            current.setAbortAction(true);
+        }
+    } else {
+        // Fahrzeuge ab 2001: TSN = 3 Buchstaben
+        if (!/^[A-Z]{3}$/i.test(tsn)) {
+            gs.addErrorMessage(gs.getMessage("invalid_tsn_format"));
+            current.setAbortAction(true);
+        }
+    }
+    
+
+    /* 	if (year <= '20001231') {
+    		// Vor 2001: nur 3 Ziffern erlaubt
+    		isValid = /^[0-9]{3}$/.test(tsn);
+    	} else {
+    		// Ab 2001: nur 3 Buchstaben erlaubt
+    		isValid = /^[A-Z]{3}$/i.test(tsn);
+    	}
+    	if (!isValid) {
+    		gs.addErrorMessage(gs.getMessage("invalid_tsn_format"));
+    		current.setAbortAction(true);
+    	} */
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 20:12:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a250b1b83aea21005fd5ec6feaad33b</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Validate TSN Format</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+        <sys_update_name>sys_script_8a250b1b83aea21005fd5ec6feaad33b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 21:01:38</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8a250b1b83aea21005fd5ec6feaad33b"/>
+</record_update>
