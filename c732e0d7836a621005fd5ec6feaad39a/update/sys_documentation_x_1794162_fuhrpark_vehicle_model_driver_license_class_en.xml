@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="driver_license_class" label="Driver License Class" language="en" table="x_1794162_fuhrpark_vehicle_model">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>driver_license_class</element>
+            <help/>
+            <hint/>
+            <label>Driver License Class</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <plural>Driver License Class</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:14:39</sys_created_on>
+            <sys_id>a4fac5df8326a21005fd5ec6feaad34c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Driver License Class</sys_name>
+            <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+            <sys_update_name>sys_documentation_x_1794162_fuhrpark_vehicle_model_driver_license_class_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:14:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

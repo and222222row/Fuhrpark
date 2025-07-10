@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1794162_fuhrpark_vehicle_model">x_1794162_fuhrpark_vehicle_model</category>
+        <maximum_digits>7</maximum_digits>
+        <number>10000</number>
+        <prefix>F</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:34:43</sys_created_on>
+        <sys_id>7a5f81578366a21005fd5ec6feaad322</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>F</sys_name>
+        <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+        <sys_update_name>sys_number_7a5f81578366a21005fd5ec6feaad322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:36:59</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="driver_license_class" table="x_1794162_fuhrpark_vehicle_model" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>driver_license_class</element>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:20:30</sys_created_on>
+            <sys_id>1a4c81538366a21005fd5ec6feaad341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>driver_license_class</sys_name>
+            <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+            <sys_update_name>sys_choice_x_1794162_fuhrpark_vehicle_model_driver_license_class</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:20:30</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:21:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>798c05538366a21005fd5ec6feaad38a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:21:33</sys_updated_on>
+            <value>A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A1</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:21:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d49c09df8326a21005fd5ec6feaad319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:21:44</sys_updated_on>
+            <value>A1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A2</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:22:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18ac05df8326a21005fd5ec6feaad356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:22:00</sys_updated_on>
+            <value>A2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AM</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:22:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6ac45538366a21005fd5ec6feaad3a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:22:08</sys_updated_on>
+            <value>AM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:20:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>552ccd138366a21005fd5ec6feaad32a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:20:30</sys_updated_on>
+            <value>B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B17</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:20:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>655cc1df8326a21005fd5ec6feaad34c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:20:43</sys_updated_on>
+            <value>B17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B196</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:21:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d7c09df8326a21005fd5ec6feaad34d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:21:14</sys_updated_on>
+            <value>B196</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B197</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:20:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c46c45df8326a21005fd5ec6feaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:20:53</sys_updated_on>
+            <value>B197</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B96</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:21:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a6ccd9f8326a21005fd5ec6feaad311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:21:03</sys_updated_on>
+            <value>B96</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BE</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:21:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f7c09df8326a21005fd5ec6feaad315</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:21:25</sys_updated_on>
+            <value>BE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:22:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4abc8ddf8326a21005fd5ec6feaad34b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:22:24</sys_updated_on>
+            <value>C</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>driver_license_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CE</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_model</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 11:22:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98cc81df8326a21005fd5ec6feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 11:22:33</sys_updated_on>
+            <value>CE</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
