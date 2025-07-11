@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fa1d775383e2e21005fd5ec6feaad32c" sys_domain="global" table="x_1794162_fuhrpark_vehicle_insurance_certificate" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb1d775383e2e21005fd5ec6feaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1794162_fuhrpark_vehicle_insurance_certificate" name="x_1794162_fuhrpark_vehicle_insurance_certificate" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">fa1d775383e2e21005fd5ec6feaad32c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1794162_fuhrpark_vehicle_insurance_certificate" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">b21d775383e2e21005fd5ec6feaad33c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:13:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be1d775383e2e21005fd5ec6feaad33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1794162_fuhrpark_vehicle_insurance_certificate" name="x_1794162_fuhrpark_vehicle_insurance_certificate" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">fa1d775383e2e21005fd5ec6feaad32c</sys_ui_form>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_1794162_fuhrpark_vehicle_insurance_certificate" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">b61d775383e2e21005fd5ec6feaad333</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:13:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb1d775383e2e21005fd5ec6feaad34e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1794162_fuhrpark_vehicle_insurance_certificate" name="x_1794162_fuhrpark_vehicle_insurance_certificate" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">fa1d775383e2e21005fd5ec6feaad32c</sys_ui_form>
+            <sys_ui_section caption="Renewal" display_value="Renewal" name="x_1794162_fuhrpark_vehicle_insurance_certificate" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">cf1d775383e2e21005fd5ec6feaad347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:13:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b21d775383e2e21005fd5ec6feaad333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1794162_fuhrpark_vehicle_insurance_certificate" name="x_1794162_fuhrpark_vehicle_insurance_certificate" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">fa1d775383e2e21005fd5ec6feaad32c</sys_ui_form>
+            <sys_ui_section caption="Terms and Conditions" display_value="Terms and Conditions" name="x_1794162_fuhrpark_vehicle_insurance_certificate" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">761d775383e2e21005fd5ec6feaad32f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:13:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa1d775383e2e21005fd5ec6feaad32c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1794162_fuhrpark_vehicle_insurance_certificate</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fa1d775383e2e21005fd5ec6feaad32c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:13:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="ITAM Workspace" name="itam_workspace">e53c64d153c230108125ddeeff7b12e3</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

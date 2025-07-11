@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="no_claims_class_liability" table="x_1794162_fuhrpark_vehicle_insurance_certificate" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>no_claims_class_liability</element>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:05:34</sys_created_on>
+            <sys_id>956b33df83a2e21005fd5ec6feaad317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>no_claims_class_liability</sys_name>
+            <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+            <sys_update_name>sys_choice_x_1794162_fuhrpark_vehicle_insurance_certificate_no_claims_class_liability</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:05:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 0</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:05:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>753b3f9f83a2e21005fd5ec6feaad36e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:05:34</sys_updated_on>
+            <value>SF 0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 1</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:05:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb6bfb9f83a2e21005fd5ec6feaad3e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:05:41</sys_updated_on>
+            <value>SF 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 10</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:06:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56ab77df83a2e21005fd5ec6feaad30f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:06:44</sys_updated_on>
+            <value>SF 10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 2</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:05:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c97b339f83a2e21005fd5ec6feaad3f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:05:50</sys_updated_on>
+            <value>SF 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 3</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:05:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b27bfb9f83a2e21005fd5ec6feaad31e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:05:57</sys_updated_on>
+            <value>SF 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 4</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:06:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b88bb3db83a2e21005fd5ec6feaad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:06:04</sys_updated_on>
+            <value>SF 4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 5</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:06:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a8bbb5f83a2e21005fd5ec6feaad3c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:06:12</sys_updated_on>
+            <value>SF 5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 6</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:06:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>149bfb9f83a2e21005fd5ec6feaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:06:19</sys_updated_on>
+            <value>SF 6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 7</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:06:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>319bfb9f83a2e21005fd5ec6feaad3f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:06:26</sys_updated_on>
+            <value>SF 7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 8</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:06:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b9b77df83a2e21005fd5ec6feaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:06:31</sys_updated_on>
+            <value>SF 8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_claims_class_liability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SF 9</label>
+            <language>en</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-11 00:06:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4abf35f83a2e21005fd5ec6feaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-11 00:06:37</sys_updated_on>
+            <value>SF 9</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
