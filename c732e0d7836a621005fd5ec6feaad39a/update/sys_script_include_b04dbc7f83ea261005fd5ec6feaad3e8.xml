@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1794162_fuhrpark.FuhrparkUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>FuhrparkUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var FuhrparkUtils = Class.create();
+FuhrparkUtils.prototype = {
+    initialize: function() {
+    },
+	validateDriverLicenseForVehicle: function(userId, vehicleId) {
+        if (!userId || !vehicleId) return false;
+
+        var vehicleGR = new GlideRecord('x_1794162_fuhrpark_vehicle');
+        if (!vehicleGR.get(vehicleId)) return false;
+
+        var requiredClass = vehicleGR.vehicle_model.driver_license_class;
+        if (!requiredClass) return false;
+
+        var dlGR = new GlideRecord('x_1794162_fuhrpark_driving_license');
+        dlGR.addQuery('owner', userId);
+        dlGR.addQuery('driving_license_class', requiredClass);
+        dlGR.query();
+
+        return dlGR.hasNext();
+    },
+
+
+    type: 'FuhrparkUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 23:34:52</sys_created_on>
+        <sys_id>b04dbc7f83ea261005fd5ec6feaad3e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FuhrparkUtils</sys_name>
+        <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+        <sys_update_name>sys_script_include_b04dbc7f83ea261005fd5ec6feaad3e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 23:58:58</sys_updated_on>
+    </sys_script_include>
+</record_update>
