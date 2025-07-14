@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Transform Vehicle Models">84c80628833e2a1005fd5ec6feaad39f</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+	if (source['u_kfz_hersteller']) {
+        var companyGR = new GlideRecord('core_company');
+        companyGR.addQuery('name', source['u_kfz_hersteller']);
+        companyGR.query();
+
+        if (companyGR.next()) {
+            target.manufacturer = companyGR.sys_id;
+        } else {
+            var newCompany = new GlideRecord('core_company');
+            newCompany.initialize();
+            newCompany.name = source['u_kfz_hersteller'];
+            newCompany.active = true;
+            newCompany.insert();
+            target.manufacturer = newCompany.sys_id;
+        }
+    }
+
+    // Setze Führerscheinklasse auf "B"
+    target.driver_license_class = 'B';
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 13:11:21</sys_created_on>
+        <sys_id>798a8aa8833e2a1005fd5ec6feaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+        <sys_update_name>sys_transform_script_798a8aa8833e2a1005fd5ec6feaad31d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 13:11:21</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>
