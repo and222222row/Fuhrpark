@@ -7,14 +7,14 @@
         <hint>str8con Fuhrpark Manager</hint>
         <name/>
         <order>100</order>
-        <roles/>
+        <roles>x_1794162_fuhrpark.fuhrpark_manager,x_1794162_fuhrpark.fuhrpark_read,x_1794162_fuhrpark.fuhrpark_write</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-10 08:21:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3b332497836a621005fd5ec6feaad357</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Fleet Management</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
         <sys_update_name>sys_app_application_3b332497836a621005fd5ec6feaad357</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-10 11:28:45</sys_updated_on>
+        <sys_updated_on>2025-07-14 11:07:25</sys_updated_on>
         <title>Fleet Management</title>
         <view_name/>
     </sys_app_application>

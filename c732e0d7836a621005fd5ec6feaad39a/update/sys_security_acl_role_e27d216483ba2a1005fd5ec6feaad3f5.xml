@@ -2,17 +2,17 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-10 23:57:22</sys_created_on>
-        <sys_id>0189371f83a2e21005fd5ec6feaad386</sys_id>
+        <sys_created_on>2025-07-14 10:58:46</sys_created_on>
+        <sys_id>e27d216483ba2a1005fd5ec6feaad3f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1794162_fuhrpark_vehicle_insurance_certificate.x_1794162_fuhrpark.vehicle_insurance_certificate_user</sys_name>
+        <sys_name>x_1794162_fuhrpark_vehicle_insurance_certificate.x_1794162_fuhrpark.fuhrpark_manager</sys_name>
         <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
         <sys_security_acl display_value="x_1794162_fuhrpark_vehicle_insurance_certificate">0989371f83a2e21005fd5ec6feaad382</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_0189371f83a2e21005fd5ec6feaad386</sys_update_name>
+        <sys_update_name>sys_security_acl_role_e27d216483ba2a1005fd5ec6feaad3f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-10 23:57:22</sys_updated_on>
-        <sys_user_role display_value="x_1794162_fuhrpark.vehicle_insurance_certificate_user" name="x_1794162_fuhrpark.vehicle_insurance_certificate_user">38893fdb83a2e21005fd5ec6feaad3e3</sys_user_role>
+        <sys_updated_on>2025-07-14 10:58:46</sys_updated_on>
+        <sys_user_role display_value="x_1794162_fuhrpark.fuhrpark_manager" name="x_1794162_fuhrpark.fuhrpark_manager">7f2aa92083ba2a1005fd5ec6feaad3ec</sys_user_role>
     </sys_security_acl_role>
 </record_update>

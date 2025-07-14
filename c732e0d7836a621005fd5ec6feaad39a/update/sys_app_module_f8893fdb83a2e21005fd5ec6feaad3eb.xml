@@ -18,14 +18,14 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1794162_fuhrpark.vehicle_insurance_certificate_user</roles>
+        <roles>x_1794162_fuhrpark.fuhrpark_manager,x_1794162_fuhrpark.fuhrpark_read,x_1794162_fuhrpark.fuhrpark_write</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-10 23:57:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f8893fdb83a2e21005fd5ec6feaad3eb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Vehicle Insurance Certificates</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
         <sys_update_name>sys_app_module_f8893fdb83a2e21005fd5ec6feaad3eb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-10 23:57:20</sys_updated_on>
+        <sys_updated_on>2025-07-14 11:09:34</sys_updated_on>
         <timeline_page/>
         <title>Vehicle Insurance Certificates</title>
         <uncancelable>false</uncancelable>
