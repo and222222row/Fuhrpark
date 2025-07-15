@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="issue_date" label="Ausstellungsdatum" language="de" table="x_1794162_fuhrpark_driving_license">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>issue_date</element>
+            <help/>
+            <hint/>
+            <label>Ausstellungsdatum</label>
+            <language>de</language>
+            <name>x_1794162_fuhrpark_driving_license</name>
+            <plural>Ausstellungsdatum</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 13:33:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ausstellungsdatum</sys_name>
+            <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+            <sys_update_name>sys_documentation_x_1794162_fuhrpark_driving_license_issue_date_de</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 13:33:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

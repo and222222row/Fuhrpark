@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e571daa783aee21005fd5ec6feaad31e" label="Vehicle Usage" max_length="40" name="x_1794162_fuhrpark_vehicle_usage" type="collection">
-        <element default="javascript:global.getNextObjNumberPadded()" label="Number" max_length="20" name="number" read_only="true" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded()" label="Number" max_length="20" name="number" read_only="true" reference_qual="null" reference_qual_condition="null" type="string"/>
         <element label="Usage End" max_length="40" name="usage_end" type="glide_date_time"/>
         <element label="Usage Start" mandatory="true" max_length="40" name="usage_start" type="glide_date_time"/>
         <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element label="Vehicle" mandatory="true" max_length="32" name="vehicle" reference="x_1794162_fuhrpark_vehicle" type="reference"/>
+        <element label="Vehicle" mandatory="true" max_length="32" name="vehicle" reference="x_1794162_fuhrpark_vehicle" reference_qual="null" reference_qual_condition="null" type="reference"/>
         <index name="index">
             <element name="user"/>
         </index>

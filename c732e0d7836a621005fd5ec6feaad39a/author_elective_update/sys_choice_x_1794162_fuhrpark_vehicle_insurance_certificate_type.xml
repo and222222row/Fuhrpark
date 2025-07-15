@@ -39,6 +39,25 @@
             <element>type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Haftpflicht</label>
+            <language>de</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 13:38:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 13:38:35</sys_updated_on>
+            <value>liability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Liability Insurance</label>
             <language>en</language>
             <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
@@ -58,6 +77,25 @@
             <element>type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Teilkasko</label>
+            <language>de</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 13:38:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 13:38:59</sys_updated_on>
+            <value>partial</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Partial Coverage</label>
             <language>en</language>
             <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
@@ -71,6 +109,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-11 00:02:20</sys_updated_on>
             <value>partial</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Comprehensive Coverage</label>
+            <language>de</language>
+            <name>x_1794162_fuhrpark_vehicle_insurance_certificate</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 13:38:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 13:38:04</sys_updated_on>
+            <value>Vollkasko</value>
         </sys_choice>
     </sys_choice>
 </record_update>

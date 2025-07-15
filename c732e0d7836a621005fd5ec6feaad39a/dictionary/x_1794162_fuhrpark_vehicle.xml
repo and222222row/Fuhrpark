@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3add06e383aee21005fd5ec6feaad3dc" label="Vehicle" max_length="40" name="x_1794162_fuhrpark_vehicle" type="collection">
-        <element label="Next Technical Inspection" mandatory="true" max_length="40" name="next_technical_inspection" type="glide_date"/>
+        <element label="Next Technical Inspection" mandatory="true" max_length="40" name="next_technical_inspection" reference_qual="null" reference_qual_condition="null" type="glide_date"/>
         <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="In Use" value="in_use"/>
                 <element inactive_on_update="false" label="Available" value="available"/>
+                <element inactive_on_update="false" label="Verfügbar" language="de" value="available"/>
+                <element inactive_on_update="false" label="In Nutzung" language="de" value="in_use"/>
             </choice>
         </element>
         <element default="javascript:global.getNextObjNumberPadded()" label="Number" max_length="20" name="number" read_only="true" type="string"/>
         <element label="vehicle insurance certificate" mandatory="true" max_length="32" name="vehicle_insurance_certificate" reference="x_1794162_fuhrpark_vehicle_insurance_certificate" type="reference"/>
         <element label="Driver License Verification Required" max_length="40" name="check_required" type="boolean"/>
         <element label="First Registration" mandatory="true" max_length="40" name="first_registration" type="glide_date"/>
-        <element label="License Plate" mandatory="true" max_length="11" name="license_plate" type="string"/>
+        <element label="License Plate" mandatory="true" max_length="11" name="license_plate" reference_qual="null" reference_qual_condition="null" type="string"/>
         <element label="Vehicle Model" mandatory="true" max_length="32" name="vehicle_model" reference="x_1794162_fuhrpark_vehicle_model" type="reference"/>
         <index name="index">
             <element name="vehicle_insurance_certificate"/>

@@ -18,6 +18,9 @@
         <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Comprehensive Coverage" value="comprehensive"/>
+                <element inactive_on_update="false" label="Comprehensive Coverage" language="de" value="Vollkasko"/>
+                <element inactive_on_update="false" label="Haftpflicht" language="de" value="liability"/>
+                <element inactive_on_update="false" label="Teilkasko" language="de" value="partial"/>
                 <element inactive_on_update="false" label="Liability Insurance" value="liability"/>
                 <element inactive_on_update="false" label="Partial Coverage" value="partial"/>
             </choice>

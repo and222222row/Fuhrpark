@@ -39,6 +39,25 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Verfügbar</label>
+            <language>de</language>
+            <name>x_1794162_fuhrpark_vehicle</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 13:45:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 13:45:35</sys_updated_on>
+            <value>available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>In Use</label>
             <language>en</language>
             <name>x_1794162_fuhrpark_vehicle</name>
@@ -51,6 +70,25 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-11 10:55:41</sys_updated_on>
+            <value>in_use</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Nutzung</label>
+            <language>de</language>
+            <name>x_1794162_fuhrpark_vehicle</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 13:45:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 13:45:12</sys_updated_on>
             <value>in_use</value>
         </sys_choice>
     </sys_choice>
