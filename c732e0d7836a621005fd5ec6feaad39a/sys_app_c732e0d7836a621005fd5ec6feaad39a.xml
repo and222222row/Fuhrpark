@@ -44,4 +44,30 @@
         <version>1.0.0</version>
     </sys_app>
     <sys_translated_text action="delete_multiple" query="documentkey=c732e0d7836a621005fd5ec6feaad39a"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c732e0d7836a621005fd5ec6feaad39a</documentkey>
+        <fieldname>name</fieldname>
+        <language>de</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 10:26:34</sys_created_on>
+        <sys_id>01efa6b083f2aa1005fd5ec6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 10:26:34</sys_updated_on>
+        <tablename>sys_app</tablename>
+        <value>Fuhrparkmanagement</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c732e0d7836a621005fd5ec6feaad39a</documentkey>
+        <fieldname>name</fieldname>
+        <language>en</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 10:26:04</sys_created_on>
+        <sys_id>302f62b083f2aa1005fd5ec6feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 10:26:04</sys_updated_on>
+        <tablename>sys_app</tablename>
+        <value>Fleet Management</value>
+    </sys_translated_text>
 </record_update>
