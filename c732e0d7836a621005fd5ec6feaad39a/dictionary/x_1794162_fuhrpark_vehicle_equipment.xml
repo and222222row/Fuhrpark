@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6e213153832aa21005fd5ec6feaad325" label="Vehicle Equipment" max_length="40" name="x_1794162_fuhrpark_vehicle_equipment" type="collection">
+        <element label="Description" max_length="200" name="description" type="string"/>
+        <element label="Vehicle Model" mandatory="true" max_length="32" name="vehicle_model" reference="x_1794162_fuhrpark_vehicle_model" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded()" label="Number" mandatory="true" max_length="20" name="number" read_only="true" type="string"/>
+        <element label="Optional Equipment" max_length="40" name="optional_equipment" type="boolean"/>
+        <index name="index">
+            <element name="vehicle_model"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 23:57:21</sys_created_on>
+        <sys_id>c189f31f83a2e21005fd5ec6feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1794162_fuhrpark_vehicle_insurance_certificate.x_1794162_fuhrpark.vehicle_insurance_certificate_user</sys_name>
+        <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+        <sys_security_acl display_value="x_1794162_fuhrpark_vehicle_insurance_certificate">bc89f31f83a2e21005fd5ec6feaad3e2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c189f31f83a2e21005fd5ec6feaad3e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 23:57:21</sys_updated_on>
+        <sys_user_role display_value="x_1794162_fuhrpark.vehicle_insurance_certificate_user" name="x_1794162_fuhrpark.vehicle_insurance_certificate_user">38893fdb83a2e21005fd5ec6feaad3e3</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</application>
+        <file_path/>
+        <instance_id>83472ab1ebb826505a2dfceacad0cddf</instance_id>
+        <instance_name>dev323859</instance_name>
+        <name>sys_security_acl_role_c189f31f83a2e21005fd5ec6feaad3e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-10 23:57:21</sys_created_on><sys_id>c189f31f83a2e21005fd5ec6feaad3e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1794162_fuhrpark_vehicle_insurance_certificate.x_1794162_fuhrpark.vehicle_insurance_certificate_user</sys_name><sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package><sys_policy/><sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope><sys_security_acl display_value="x_1794162_fuhrpark_vehicle_insurance_certificate">bc89f31f83a2e21005fd5ec6feaad3e2</sys_security_acl><sys_update_name>sys_security_acl_role_c189f31f83a2e21005fd5ec6feaad3e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-10 23:57:21</sys_updated_on><sys_user_role display_value="x_1794162_fuhrpark.vehicle_insurance_certificate_user" name="x_1794162_fuhrpark.vehicle_insurance_certificate_user">38893fdb83a2e21005fd5ec6feaad3e3</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1185050</payload_hash>
+        <record_name>x_1794162_fuhrpark_vehicle_insurance_certificate.x_1794162_fuhrpark.vehicle_insurance_certificate_us</record_name>
+        <reverted_from/>
+        <source>20a833db83a2e21005fd5ec6feaad3cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 23:57:21</sys_created_on>
+        <sys_id>4d89f31f83a2e21005fd5ec6feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f6c5b6420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 23:57:21</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>0189f31fbba2e21086342a8802eea7ea</update_guid>
+        <update_guid_history>0189f31fbba2e21086342a8802eea7ea:1185050</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1794162_fuhrpark_vehicle_insurance_certificate.x_1794162_fuhrpark.vehicle_insu">e9cd692483ba2a1005fd5ec6feaad317</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 10:59:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1cc4dc92cd3e4b1386febbbd75dbe3a1</sys_id>
+        <sys_metadata>c189f31f83a2e21005fd5ec6feaad3e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1794162_fuhrpark_vehicle_insurance_certificate.x_1794162_fuhrpark.vehicle_insurance_certificate_user</sys_name>
+        <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+        <sys_parent display_value="x_1794162_fuhrpark_vehicle_insurance_certificate">bc89f31f83a2e21005fd5ec6feaad3e2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+        <sys_scope_delete display_value="">0fc6b6cb43264eef837b2bfb19a8cf09</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c189f31f83a2e21005fd5ec6feaad3e7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c189f31f83a2e21005fd5ec6feaad3e7">4d89f31f83a2e21005fd5ec6feaad3ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 10:59:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

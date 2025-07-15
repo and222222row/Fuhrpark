@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_1794162_fuhrpark_vehicle_equipment</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1794162_fuhrpark_vehicle_equipment</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 13:58:53</sys_created_on>
+        <sys_id>12807513832aa21005fd5ec6feaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1794162_fuhrpark_vehicle_equipment</sys_name>
+        <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+        <sys_update_name>sys_security_acl_12807513832aa21005fd5ec6feaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 13:58:53</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</application>
+        <file_path/>
+        <instance_id>83472ab1ebb826505a2dfceacad0cddf</instance_id>
+        <instance_name>dev323859</instance_name>
+        <name>sys_security_acl_12807513832aa21005fd5ec6feaad327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_1794162_fuhrpark_vehicle_equipment</description><local_or_existing>Local</local_or_existing><name>x_1794162_fuhrpark_vehicle_equipment</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-10 13:58:53</sys_created_on><sys_id>12807513832aa21005fd5ec6feaad327</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1794162_fuhrpark_vehicle_equipment</sys_name><sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package><sys_policy/><sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope><sys_update_name>sys_security_acl_12807513832aa21005fd5ec6feaad327</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-10 13:58:53</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>642050303</payload_hash>
+        <record_name>x_1794162_fuhrpark_vehicle_equipment</record_name>
+        <reverted_from/>
+        <source>5502151b8366a21005fd5ec6feaad3ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 13:58:53</sys_created_on>
+        <sys_id>12807513832aa21005fd5ec6feaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f4a1cc960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 13:58:53</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>16807513532aa210f909635906dfd629</update_guid>
+        <update_guid_history>16807513532aa210f909635906dfd629:642050303</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 14:00:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>19a8967053624bbc8cbb74dfe91630a4</sys_id>
+        <sys_metadata>12807513832aa21005fd5ec6feaad327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1794162_fuhrpark_vehicle_equipment</sys_name>
+        <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+        <sys_parent display_value="">26807513832aa21005fd5ec6feaad335</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+        <sys_scope_delete display_value="">0fc6b6cb43264eef837b2bfb19a8cf09</sys_scope_delete>
+        <sys_update_name>sys_security_acl_12807513832aa21005fd5ec6feaad327</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_12807513832aa21005fd5ec6feaad327">12807513832aa21005fd5ec6feaad32a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 14:00:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

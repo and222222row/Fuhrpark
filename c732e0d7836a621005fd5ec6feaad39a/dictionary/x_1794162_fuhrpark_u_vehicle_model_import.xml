@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3e384ae4833e2a1005fd5ec6feaad36f" extends="sys_import_set_row" label="u_vehicle_model_import" max_length="40" name="x_1794162_fuhrpark_u_vehicle_model_import" type="collection">
+        <element attributes="import_attribute_name=Baujahr Ende" label="Baujahr Ende" max_length="40" name="u_baujahr_ende" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nummer" label="Nummer" max_length="40" name="u_nummer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Bezeichnung" label="Bezeichnung" max_length="40" name="u_bezeichnung" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=KFZ-Hersteller" label="KFZ-Hersteller" max_length="40" name="u_kfz_hersteller" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=TSN" label="TSN" max_length="40" name="u_tsn" type="string"/>
+        <element attributes="import_attribute_name=Leergweicht" label="Leergweicht" max_length="40" name="u_leergweicht" type="integer"/>
+        <element attributes="import_attribute_name=Leistung" label="Leistung" max_length="40" name="u_leistung" type="integer"/>
+        <element label="Baujahr Ende" max_length="40" name="baujahr_ende" type="glide_date"/>
+        <element attributes="import_attribute_name=Baujahr Beginn" label="Baujahr Beginn" max_length="40" name="u_baujahr_beginn" type="integer"/>
+        <element attributes="import_attribute_name=Zul Gesamtgewicht" label="Zul Gesamtgewicht" max_length="40" name="u_zul_gesamtgewicht" type="integer"/>
+    </element>
+</database>

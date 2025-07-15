@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="af311cfc83b66a1005fd5ec6feaad34e" extends="sys_import_set_row" label="u_vehicle_equipment_import" max_length="40" name="x_1794162_fuhrpark_u_vehicle_equipment_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Bezeichnung" label="Bezeichnung" max_length="40" name="u_bezeichnung" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ausstattungsbezeichnung" label="Ausstattungsbezeichnung" max_length="40" name="u_ausstattungsbezeichnung" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nummer" label="Nummer" max_length="40" name="u_nummer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=KFZ-Hersteller" label="KFZ-Hersteller" max_length="40" name="u_kfz_hersteller" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serienausstattung" label="Serienausstattung" max_length="40" name="u_serienausstattung" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="test999">0129eb6c83f26a1005fd5ec6feaad30a</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // Add your code here
+    var year1 = source.u_baujahr_beginn;
+    var year2 = source.u_baujahr_ende;
+    if (year1 && year1.length === 4 && !isNaN(parseInt(year1))) {
+        gs.info(year1 + '-01-01');
+        gs.info(typeof(year1));
+        target.production_year_from = year1 + '-01-01'; // No time part needed
+        target.production_year_to = year2 + '-01-01'; // No time part needed
+    }
+    gs.info(year1 + '-01-01'); // leave empty if invalid
+    gs.info(typeof(year1));
+    target.production_year_from = year1 + '-01-01'; // No time part needed
+    target.production_year_to = year2 + '-01-01'; // No time part needed
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 20:01:59</sys_created_on>
+        <sys_id>9b69af6c83f26a1005fd5ec6feaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_scope>
+        <sys_update_name>sys_transform_script_9b69af6c83f26a1005fd5ec6feaad3b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 20:01:59</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

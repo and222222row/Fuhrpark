@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-07-11 10:55:18</sys_created_on>
-            <sys_id>cb10d26783aee21005fd5ec6feaad3ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>status</sys_name>
             <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2025-07-11 10:55:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>73ff86a783aee21005fd5ec6feaad3d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-11 10:55:18</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2025-07-11 10:55:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1030daa783aee21005fd5ec6feaad315</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-11 10:55:41</sys_updated_on>

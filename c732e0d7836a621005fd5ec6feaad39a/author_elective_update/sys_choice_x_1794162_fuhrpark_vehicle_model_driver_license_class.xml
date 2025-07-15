@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-07-10 11:20:30</sys_created_on>
-            <sys_id>1a4c81538366a21005fd5ec6feaad341</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>driver_license_class</sys_name>
             <sys_package display_value="Fuhrpark" source="x_1794162_fuhrpark">c732e0d7836a621005fd5ec6feaad39a</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2025-07-10 11:21:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>798c05538366a21005fd5ec6feaad38a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:21:33</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2025-07-10 11:21:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d49c09df8326a21005fd5ec6feaad319</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:21:44</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2025-07-10 11:22:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>18ac05df8326a21005fd5ec6feaad356</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:22:00</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2025-07-10 11:22:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c6ac45538366a21005fd5ec6feaad3a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:22:08</sys_updated_on>
@@ -110,7 +105,6 @@
             <sys_created_on>2025-07-10 11:20:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>552ccd138366a21005fd5ec6feaad32a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:20:30</sys_updated_on>
@@ -130,7 +124,6 @@
             <sys_created_on>2025-07-10 11:20:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>655cc1df8326a21005fd5ec6feaad34c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:20:43</sys_updated_on>
@@ -150,7 +143,6 @@
             <sys_created_on>2025-07-10 11:21:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0d7c09df8326a21005fd5ec6feaad34d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:21:14</sys_updated_on>
@@ -170,7 +162,6 @@
             <sys_created_on>2025-07-10 11:20:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c46c45df8326a21005fd5ec6feaad3a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:20:53</sys_updated_on>
@@ -190,7 +181,6 @@
             <sys_created_on>2025-07-10 11:21:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9a6ccd9f8326a21005fd5ec6feaad311</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:21:03</sys_updated_on>
@@ -210,7 +200,6 @@
             <sys_created_on>2025-07-10 11:21:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7f7c09df8326a21005fd5ec6feaad315</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:21:25</sys_updated_on>
@@ -230,7 +219,6 @@
             <sys_created_on>2025-07-10 11:22:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4abc8ddf8326a21005fd5ec6feaad34b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:22:24</sys_updated_on>
@@ -250,7 +238,6 @@
             <sys_created_on>2025-07-10 11:22:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>98cc81df8326a21005fd5ec6feaad344</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 11:22:33</sys_updated_on>

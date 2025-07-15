@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="062845db8326a21005fd5ec6feaad3fa" label="Vehicle Model" max_length="40" name="x_1794162_fuhrpark_vehicle_model" type="collection">
+        <element label="Curb Weight (kg)" max_length="40" name="curb_weight" type="integer"/>
+        <element label="Manufacturer" mandatory="true" max_length="32" name="manufacturer" reference="core_company" type="reference"/>
+        <element label="Production Year From" mandatory="true" max_length="40" name="production_year_from" type="glide_date"/>
+        <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded()" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="Gross Weight (kg)" max_length="40" name="gross_weight" type="integer"/>
+        <element label="Production Year To" max_length="40" name="production_year_to" type="glide_date"/>
+        <element label="Type Code Number" mandatory="true" max_length="8" name="type_code_number" type="string"/>
+        <element choice="1" label="Driver License Class" mandatory="true" max_length="5" name="driver_license_class" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="B196" value="B196"/>
+                <element inactive_on_update="false" label="A2" value="A2"/>
+                <element inactive_on_update="false" label="C" value="C"/>
+                <element inactive_on_update="false" label="B" value="B"/>
+                <element inactive_on_update="false" label="B17" value="B17"/>
+                <element inactive_on_update="false" label="A" value="A"/>
+                <element inactive_on_update="false" label="BE" value="BE"/>
+                <element inactive_on_update="false" label="CE" value="CE"/>
+                <element inactive_on_update="false" label="B96" value="B96"/>
+                <element inactive_on_update="false" label="B197" value="B197"/>
+                <element inactive_on_update="false" label="AM" value="AM"/>
+                <element inactive_on_update="false" label="A1" value="A1"/>
+            </choice>
+        </element>
+        <element label="Horsepower" max_length="40" name="horsepower" type="integer"/>
+        <index name="index">
+            <element name="manufacturer"/>
+        </index>
+        <index name="index2">
+            <element name="number"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ae09bbdb83a2e21005fd5ec6feaad3d9" extends="ast_contract" label="Vehicle Insurance Certificate" max_length="40" name="x_1794162_fuhrpark_vehicle_insurance_certificate" type="collection">
+        <element choice="1" label="No-Claims Class Liability" max_length="40" name="no_claims_class_liability" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SF 6" value="SF 6"/>
+                <element inactive_on_update="false" label="SF 7" value="SF 7"/>
+                <element inactive_on_update="false" label="SF 10" value="SF 10"/>
+                <element inactive_on_update="false" label="SF 8" value="SF 8"/>
+                <element inactive_on_update="false" label="SF 5" value="SF 5"/>
+                <element inactive_on_update="false" label="SF 0" value="SF 0"/>
+                <element inactive_on_update="false" label="SF 3" value="SF 3"/>
+                <element inactive_on_update="false" label="SF 9" value="SF 9"/>
+                <element inactive_on_update="false" label="SF 4" value="SF 4"/>
+                <element inactive_on_update="false" label="SF 2" value="SF 2"/>
+                <element inactive_on_update="false" label="SF 1" value="SF 1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Comprehensive Coverage" value="comprehensive"/>
+                <element inactive_on_update="false" label="Liability Insurance" value="liability"/>
+                <element inactive_on_update="false" label="Partial Coverage" value="partial"/>
+            </choice>
+        </element>
+        <element choice="1" choice_field="no_claims_class_liability" choice_table="x_1794162_fuhrpark_vehicle_insurance_certificate" label="No-Claims Class Partial" max_length="40" name="no_claims_class_partial" type="choice" use_dependent_field="true">
+            <choice/>
+        </element>
+    </element>
+</database>

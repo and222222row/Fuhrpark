@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8055eb138362e21005fd5ec6feaad38e" label="Driving License" max_length="40" name="x_1794162_fuhrpark_driving_license" type="collection">
+        <element choice="1" choice_field="driver_license_class" choice_table="x_1794162_fuhrpark_vehicle_model" label="Driving License Class" mandatory="true" max_length="40" name="driving_license_class" type="choice">
+            <choice/>
+        </element>
+        <element label="Issue Date" mandatory="true" max_length="40" name="issue_date" type="glide_date"/>
+        <element label="Last Check" max_length="40" name="last_check" type="glide_date_time"/>
+        <element label="Owner" mandatory="true" max_length="32" name="owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Issuer" mandatory="true" max_length="100" name="issuer" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded()" label="Number" mandatory="true" max_length="20" name="number" read_only="true" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>
